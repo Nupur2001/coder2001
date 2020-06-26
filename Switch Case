@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+int food;
+printf("Food Item: sandwich\n");
+printf("Food Item: pizza\n");
+printf("Food Item: burger\n");
+printf("Food Item: pasta\n");
+printf("Food Item: chowmein");
+scanf("%d",&food);
+switch(food)
+{
+case 1:
+printf("Price- Rs125\n");
+break;
+case 2:
+printf("Price- Rs200\n");
+break;
+case 3:
+printf("Price- Rs150\n");
+break;
+case 4:
+printf("Price- Rs140\n");
+break;
+case 5:
+printf("Price- Rs290");
+break;	
+}
+return 0;
+}
